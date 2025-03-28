@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ratcher Run_0: 4607783647587233976
+      Ratcher Run_1: -7835618290785253886
+      Ratcher Run_2: -3211029331248629357
+      Ratcher Run_3: 5996669551678440827
+      Ratcher Run_4: 8003406924813814757
+      Ratcher Run_5: -1200861181626151626
+      Ratcher Run_6: -7546187678673992674
+      Ratcher Run_7: 3221466585001206616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

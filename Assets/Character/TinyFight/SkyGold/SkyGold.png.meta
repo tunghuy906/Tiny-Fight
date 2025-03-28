@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SkyGold_0: -6648313765563344855
+      SkyGold_1: -4580602493562677410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -510,7 +510,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss Death_0: -2494834463332224916
+      Boss Death_1: 717292809772381440
+      Boss Death_10: -1008181307529551168
+      Boss Death_11: -3083347499212338659
+      Boss Death_12: -7195690376574214113
+      Boss Death_13: 8347606522295041199
+      Boss Death_14: 3456135476066106445
+      Boss Death_2: -2806732047394824475
+      Boss Death_3: 8546967618367712891
+      Boss Death_4: -450599258896910582
+      Boss Death_5: 3298027559828932720
+      Boss Death_6: 4989644838837904831
+      Boss Death_7: -2063239103549011688
+      Boss Death_8: 3707297251055267000
+      Boss Death_9: -5790840121935498200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ratcher_Attack_1_0: -1747769684169409784
+      Ratcher_Attack_1_1: -4634329759641839881
+      Ratcher_Attack_1_2: 7424240709644848629
+      Ratcher_Attack_1_3: -5837037235979934987
+      Ratcher_Attack_1_4: -9120738629258723926
+      Ratcher_Attack_1_5: -3125262638325043753
+      Ratcher_Attack_1_6: 7904558977883009543
+      Ratcher_Attack_1_7: 5118689595753388310
+      Ratcher_Attack_1_8: 1014548187168114711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
