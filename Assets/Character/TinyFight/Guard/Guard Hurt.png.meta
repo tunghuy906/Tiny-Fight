@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Guard Hurt_0: 173026508298445883
+      Guard Hurt_1: 5146131657222682909
+      Guard Hurt_2: 5420778563236238875
+      Guard Hurt_3: 239238239006498291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

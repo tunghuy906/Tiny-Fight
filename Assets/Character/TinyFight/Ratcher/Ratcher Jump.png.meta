@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ratcher Jump_0: -4442880070776699492
+      Ratcher Jump_1: 6350188400102912691
+      Ratcher Jump_2: 6391086038913809829
+      Ratcher Jump_3: -7572284660194682655
+      Ratcher Jump_4: -7568942279510895531
+      Ratcher Jump_5: -1868541665432416363
+      Ratcher Jump_6: 6969014115013411404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ratcher Hurt_0: -6364882470283835376
+      Ratcher Hurt_1: -4692849981192654831
+      Ratcher Hurt_2: 8159380454104965307
+      Ratcher Hurt_3: 7384910562280822582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Guard Jump_0: -1817053334460251022
+      Guard Jump_1: 5911880967366217422
+      Guard Jump_2: 7163972800979915367
+      Guard Jump_3: -7582023896143411801
+      Guard Jump_4: 1863910734442129299
+      Guard Jump_5: 6126034291876875833
+      Guard Jump_6: -3831420590097902875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
