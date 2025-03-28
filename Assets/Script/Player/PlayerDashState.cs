@@ -17,7 +17,7 @@ public class PlayerDashState : PlayerState
 	{
 		base.Exit();
 
-		player.SetVelocity(0, rb.linearVelocity.y);
+		player.SetVelocity(0, rb.velocity.y);
 	}
 
 	public override void Update()

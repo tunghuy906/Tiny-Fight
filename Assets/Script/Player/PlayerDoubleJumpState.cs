@@ -13,7 +13,7 @@ public class PlayerDoubleJumpState : PlayerGroundedState
 
 		if (player.jumpCount < player.maxJumps)
 		{
-			rb.linearVelocity = new Vector2(rb.linearVelocity.x, player.jumpForce);
+			rb.velocity = new Vector2(rb.velocity.x, player.jumpForce);
 			player.jumpCount++;
 
 			player.anim.SetBool("Jump", false);
@@ -29,7 +29,7 @@ public class PlayerDoubleJumpState : PlayerGroundedState
 	public override void Update()
 	{
 		base.Update();
-		if (rb.linearVelocity.y < 0)
+		if (rb.velocity.y < 0)
 		{
 			stateMachine.ChangeState(player.airState);
 		}

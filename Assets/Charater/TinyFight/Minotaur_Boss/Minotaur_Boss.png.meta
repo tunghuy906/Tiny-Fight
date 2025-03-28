@@ -1,0 +1,3140 @@
+fileFormatVersion: 2
+guid: 5c3b9cff4d74fb74c94a8568c0086ce3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 669754188079128083
+    second: Minotaur_Boss_0
+  - first:
+      213: 4260994687760024680
+    second: Minotaur_Boss_1
+  - first:
+      213: -4272498925299801480
+    second: Minotaur_Boss_2
+  - first:
+      213: -4128092141308274135
+    second: Minotaur_Boss_3
+  - first:
+      213: 1997163526132515589
+    second: Minotaur_Boss_4
+  - first:
+      213: 191967285645869480
+    second: Minotaur_Boss_5
+  - first:
+      213: 591857041528402689
+    second: Minotaur_Boss_6
+  - first:
+      213: -5644277721027123171
+    second: Minotaur_Boss_7
+  - first:
+      213: -4823094234459676228
+    second: Minotaur_Boss_8
+  - first:
+      213: 7501259004394773087
+    second: Minotaur_Boss_9
+  - first:
+      213: 3048186202220981753
+    second: Minotaur_Boss_10
+  - first:
+      213: -1456155500881764181
+    second: Minotaur_Boss_11
+  - first:
+      213: 6676936177030317393
+    second: Minotaur_Boss_12
+  - first:
+      213: -6521543853274593041
+    second: Minotaur_Boss_13
+  - first:
+      213: -5623031021747092614
+    second: Minotaur_Boss_14
+  - first:
+      213: 3325942927098603744
+    second: Minotaur_Boss_15
+  - first:
+      213: 5783786418226682204
+    second: Minotaur_Boss_16
+  - first:
+      213: -7643769405442152788
+    second: Minotaur_Boss_17
+  - first:
+      213: -428593328606523102
+    second: Minotaur_Boss_18
+  - first:
+      213: 6572526678975521585
+    second: Minotaur_Boss_19
+  - first:
+      213: 1244614001577155054
+    second: Minotaur_Boss_20
+  - first:
+      213: 4984976771413005359
+    second: Minotaur_Boss_21
+  - first:
+      213: 1906404430864437927
+    second: Minotaur_Boss_22
+  - first:
+      213: 1693668745274474751
+    second: Minotaur_Boss_23
+  - first:
+      213: -6433505513041962456
+    second: Minotaur_Boss_24
+  - first:
+      213: 1779638279342251795
+    second: Minotaur_Boss_25
+  - first:
+      213: -7581003313693115748
+    second: Minotaur_Boss_26
+  - first:
+      213: 1062107888499769901
+    second: Minotaur_Boss_27
+  - first:
+      213: 9192043059554204461
+    second: Minotaur_Boss_28
+  - first:
+      213: -2390703897099606479
+    second: Minotaur_Boss_29
+  - first:
+      213: -8096722952787050380
+    second: Minotaur_Boss_30
+  - first:
+      213: -4313849111679165759
+    second: Minotaur_Boss_31
+  - first:
+      213: 8430610880078366137
+    second: Minotaur_Boss_32
+  - first:
+      213: -6181973124934228018
+    second: Minotaur_Boss_33
+  - first:
+      213: -6353734163650206917
+    second: Minotaur_Boss_34
+  - first:
+      213: -1407552101372291706
+    second: Minotaur_Boss_35
+  - first:
+      213: -4651824964336028201
+    second: Minotaur_Boss_36
+  - first:
+      213: 556642138341306098
+    second: Minotaur_Boss_37
+  - first:
+      213: 3124411506202959407
+    second: Minotaur_Boss_38
+  - first:
+      213: 2478108956504817184
+    second: Minotaur_Boss_39
+  - first:
+      213: 7525453399393402853
+    second: Minotaur_Boss_40
+  - first:
+      213: 6606455075731984193
+    second: Minotaur_Boss_41
+  - first:
+      213: 2236104901888246382
+    second: Minotaur_Boss_42
+  - first:
+      213: 704746561055497679
+    second: Minotaur_Boss_43
+  - first:
+      213: 1053019566945686344
+    second: Minotaur_Boss_44
+  - first:
+      213: 6019976930997016804
+    second: Minotaur_Boss_45
+  - first:
+      213: 1027068125229546821
+    second: Minotaur_Boss_46
+  - first:
+      213: -7754094639036221292
+    second: Minotaur_Boss_47
+  - first:
+      213: 7552605267614715292
+    second: Minotaur_Boss_48
+  - first:
+      213: 4017943490057064149
+    second: Minotaur_Boss_49
+  - first:
+      213: -1957360675658839576
+    second: Minotaur_Boss_50
+  - first:
+      213: -351938480317827693
+    second: Minotaur_Boss_51
+  - first:
+      213: 9070248656776433955
+    second: Minotaur_Boss_52
+  - first:
+      213: 5151540400348778929
+    second: Minotaur_Boss_53
+  - first:
+      213: -2491272541521852382
+    second: Minotaur_Boss_54
+  - first:
+      213: -5165326812302511442
+    second: Minotaur_Boss_55
+  - first:
+      213: 287552487100032616
+    second: Minotaur_Boss_56
+  - first:
+      213: -3488929769011300148
+    second: Minotaur_Boss_57
+  - first:
+      213: 7127771008594684011
+    second: Minotaur_Boss_58
+  - first:
+      213: -4350460379654373166
+    second: Minotaur_Boss_59
+  - first:
+      213: 5646855694570754606
+    second: Minotaur_Boss_60
+  - first:
+      213: 1070412297697186707
+    second: Minotaur_Boss_61
+  - first:
+      213: 6293582536505906699
+    second: Minotaur_Boss_62
+  - first:
+      213: 8305086418187977547
+    second: Minotaur_Boss_63
+  - first:
+      213: 5859273081376221170
+    second: Minotaur_Boss_64
+  - first:
+      213: 7345240496061576099
+    second: Minotaur_Boss_65
+  - first:
+      213: -8852674433633319799
+    second: Minotaur_Boss_66
+  - first:
+      213: -6691926966722293524
+    second: Minotaur_Boss_67
+  - first:
+      213: 7162292645845292303
+    second: Minotaur_Boss_68
+  - first:
+      213: -269309874825469045
+    second: Minotaur_Boss_69
+  - first:
+      213: -1485517254542981900
+    second: Minotaur_Boss_70
+  - first:
+      213: -8597007298201206688
+    second: Minotaur_Boss_71
+  - first:
+      213: 6984383192597465212
+    second: Minotaur_Boss_72
+  - first:
+      213: -168414759573040007
+    second: Minotaur_Boss_73
+  - first:
+      213: 6386698015355090150
+    second: Minotaur_Boss_74
+  - first:
+      213: 509965439102030568
+    second: Minotaur_Boss_75
+  - first:
+      213: -4311004753476810909
+    second: Minotaur_Boss_76
+  - first:
+      213: -2261232777251759154
+    second: Minotaur_Boss_77
+  - first:
+      213: 1933030909097281836
+    second: Minotaur_Boss_78
+  - first:
+      213: -4446895886500672835
+    second: Minotaur_Boss_79
+  - first:
+      213: -6806332876658745926
+    second: Minotaur_Boss_80
+  - first:
+      213: 3805327376242381785
+    second: Minotaur_Boss_81
+  - first:
+      213: -9176889902626889897
+    second: Minotaur_Boss_82
+  - first:
+      213: 1766172100004212495
+    second: Minotaur_Boss_83
+  - first:
+      213: -9133905975969194121
+    second: Minotaur_Boss_84
+  - first:
+      213: 4350353373700097349
+    second: Minotaur_Boss_85
+  - first:
+      213: 822261972899048810
+    second: Minotaur_Boss_86
+  - first:
+      213: 2808194222151399793
+    second: Minotaur_Boss_87
+  - first:
+      213: -2669373752559841853
+    second: Minotaur_Boss_88
+  - first:
+      213: 585049975784960766
+    second: Minotaur_Boss_89
+  - first:
+      213: 1161859743709269632
+    second: Minotaur_Boss_90
+  - first:
+      213: -3857924251964353337
+    second: Minotaur_Boss_91
+  - first:
+      213: -5376920002676463330
+    second: Minotaur_Boss_92
+  - first:
+      213: 3997627550800469658
+    second: Minotaur_Boss_93
+  - first:
+      213: -5380047893598578757
+    second: Minotaur_Boss_94
+  - first:
+      213: 3146682205169776680
+    second: Minotaur_Boss_95
+  - first:
+      213: 8902229218061591000
+    second: Minotaur_Boss_96
+  - first:
+      213: -7059615226160029074
+    second: Minotaur_Boss_97
+  - first:
+      213: 2980007205637596435
+    second: Minotaur_Boss_98
+  - first:
+      213: -889997330077306083
+    second: Minotaur_Boss_99
+  - first:
+      213: -7853885527890633631
+    second: Minotaur_Boss_100
+  - first:
+      213: -1992333365640909675
+    second: Minotaur_Boss_101
+  - first:
+      213: -7423475116657801286
+    second: Minotaur_Boss_102
+  - first:
+      213: 1942881138508230936
+    second: Minotaur_Boss_103
+  - first:
+      213: -7330251849618711306
+    second: Minotaur_Boss_104
+  - first:
+      213: 4238262477089027925
+    second: Minotaur_Boss_105
+  - first:
+      213: 475141500527785656
+    second: Minotaur_Boss_106
+  - first:
+      213: 1983455160098741353
+    second: Minotaur_Boss_107
+  - first:
+      213: 7410187064944267945
+    second: Minotaur_Boss_108
+  - first:
+      213: 7927709934314233595
+    second: Minotaur_Boss_109
+  - first:
+      213: -5139039815767677459
+    second: Minotaur_Boss_110
+  - first:
+      213: -3392849478094603764
+    second: Minotaur_Boss_111
+  - first:
+      213: 6205370866632927770
+    second: Minotaur_Boss_112
+  - first:
+      213: -2821162267150566859
+    second: Minotaur_Boss_113
+  - first:
+      213: 8208139267731777104
+    second: Minotaur_Boss_114
+  - first:
+      213: -7038886982016810853
+    second: Minotaur_Boss_115
+  - first:
+      213: -4873887879399599542
+    second: Minotaur_Boss_116
+  - first:
+      213: -6000163330359630441
+    second: Minotaur_Boss_117
+  - first:
+      213: -6538847959157473817
+    second: Minotaur_Boss_118
+  - first:
+      213: 7006096450407011984
+    second: Minotaur_Boss_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minotaur_Boss_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1855
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e5943b2e17b4900800000000000000
+      internalID: 669754188079128083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1855
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86443c1c718122b30800000000000000
+      internalID: 4260994687760024680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1855
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87264463dd805b4c0800000000000000
+      internalID: -4272498925299801480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1855
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a1d3da11216b6c0800000000000000
+      internalID: -4128092141308274135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_4
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1855
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503ce7545a957bb10800000000000000
+      internalID: 1997163526132515589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1761
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a10b6daa310aa200800000000000000
+      internalID: 191967285645869480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1763
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1033d1ee7d2b63800800000000000000
+      internalID: 591857041528402689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1761
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18e680415f7ba1b0800000000000000
+      internalID: -5644277721027123171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1759
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1ebccf85de01db0800000000000000
+      internalID: -4823094234459676228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_9
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1761
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a96253253d91860800000000000000
+      internalID: 7501259004394773087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_10
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1763
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fde0a073355d4a20800000000000000
+      internalID: 3048186202220981753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_11
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1761
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba026387942bacbe0800000000000000
+      internalID: -1456155500881764181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_12
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1759
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155c8dbb31e39ac50800000000000000
+      internalID: 6676936177030317393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1663
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe88f660b62de75a0800000000000000
+      internalID: -6521543853274593041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_14
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1663
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7343cbe31bf6f1b0800000000000000
+      internalID: -5623031021747092614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1663
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e86fe8787f182e20800000000000000
+      internalID: 3325942927098603744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_16
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1663
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5951238a13244050800000000000000
+      internalID: 5783786418226682204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1663
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca62f936930ebe590800000000000000
+      internalID: -7643769405442152788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1567
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2215e4f63a45d0af0800000000000000
+      internalID: -428593328606523102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1561
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1332d19113e463b50800000000000000
+      internalID: 6572526678975521585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1561
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9db7617d1c54110800000000000000
+      internalID: 1244614001577155054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_21
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1561
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2455a946f13e2540800000000000000
+      internalID: 4984976771413005359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_22
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1562
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2d7e3bab8e47a10800000000000000
+      internalID: 1906404430864437927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_23
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1562
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0444910ce118710800000000000000
+      internalID: 1693668745274474751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_24
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1562
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82add9272d897b6a0800000000000000
+      internalID: -6433505513041962456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_25
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1567
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fd1ec069b82b810800000000000000
+      internalID: 1779638279342251795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_26
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1567
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a334ee6addac690800000000000000
+      internalID: -7581003313693115748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1471
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d224b2f4f7d5dbe00800000000000000
+      internalID: 1062107888499769901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_28
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1471
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bb2dc0672b09f70800000000000000
+      internalID: 9192043059554204461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_29
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1471
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1366c3ad87382ded0800000000000000
+      internalID: -2390703897099606479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_30
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1471
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470406a6f59a2af80800000000000000
+      internalID: -8096722952787050380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1471
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca9ab3b6112224c0800000000000000
+      internalID: -4313849111679165759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_32
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1375
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b54d9a9deb8ff470800000000000000
+      internalID: 8430610880078366137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_33
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1375
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7a8454238353aa0800000000000000
+      internalID: -6181973124934228018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_34
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1375
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33ad52117003d7a0800000000000000
+      internalID: -6353734163650206917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1375
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68599d242de577ce0800000000000000
+      internalID: -1407552101372291706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_36
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1375
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5f47367d5617fb0800000000000000
+      internalID: -4651824964336028201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_37
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1375
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fee8da531799b700800000000000000
+      internalID: 556642138341306098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1279
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ede5706b32c5b20800000000000000
+      internalID: 3124411506202959407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_39
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1279
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02efe2367f2046220800000000000000
+      internalID: 2478108956504817184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_40
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1279
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef7994cef7cf6860800000000000000
+      internalID: 7525453399393402853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_41
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1279
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fc49d83e7deab50800000000000000
+      internalID: 6606455075731984193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_42
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1279
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e620f859f8d380f10800000000000000
+      internalID: 2236104901888246382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_43
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1283
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd146c6343c7c900800000000000000
+      internalID: 704746561055497679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_44
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1273
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843555d87b31d9e00800000000000000
+      internalID: 1053019566945686344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_45
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1274
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e89f10af114b8350800000000000000
+      internalID: 6019976930997016804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_46
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1274
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dfe6ca401e04e00800000000000000
+      internalID: 1027068125229546821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_47
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1274
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4983c7d320ce36490800000000000000
+      internalID: -7754094639036221292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_48
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1183
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d4be8b97e30d860800000000000000
+      internalID: 7552605267614715292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_49
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1183
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dec174f05a92c730800000000000000
+      internalID: 4017943490057064149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_50
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1183
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9490606de06d4e0800000000000000
+      internalID: -1957360675658839576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_51
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1087
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3957dd911d9ad1bf0800000000000000
+      internalID: -351938480317827693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_52
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1087
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3219f9bd81fffdd70800000000000000
+      internalID: 9070248656776433955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_53
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1087
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1dcd833b2fd7740800000000000000
+      internalID: 5151540400348778929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_54
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 991
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228c7e3a2d83d6dd0800000000000000
+      internalID: -2491272541521852382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_55
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 991
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea278eb91a21158b0800000000000000
+      internalID: -5165326812302511442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_56
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 991
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866a0e7a6779df300800000000000000
+      internalID: 287552487100032616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_57
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 990
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8bbc73cd4d49fc0800000000000000
+      internalID: -3488929769011300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_58
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 990
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b682d9fb7fdeae260800000000000000
+      internalID: 7127771008594684011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_59
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 990
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d04a4d955f00a3c0800000000000000
+      internalID: -4350460379654373166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 895
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2218ccf559ad5e40800000000000000
+      internalID: 5646855694570754606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_61
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 895
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393537f305edade00800000000000000
+      internalID: 1070412297697186707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_62
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 895
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06590dd8fb475750800000000000000
+      internalID: 6293582536505906699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_63
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 895
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4304095818914370800000000000000
+      internalID: 8305086418187977547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_64
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 895
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f72071e2d1505150800000000000000
+      internalID: 5859273081376221170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 801
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3709d70598fe560800000000000000
+      internalID: 7345240496061576099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_66
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 803
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9848a1f818bf42580800000000000000
+      internalID: -8852674433633319799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_67
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 801
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce019ad01ef7123a0800000000000000
+      internalID: -6691926966722293524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_68
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 799
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f055005c633956360800000000000000
+      internalID: 7162292645845292303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_69
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 801
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83e5808818334cf0800000000000000
+      internalID: -269309874825469045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_70
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 803
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f480477de1626be0800000000000000
+      internalID: -1485517254542981900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_71
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 801
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060c643496b41b880800000000000000
+      internalID: -8597007298201206688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_72
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 799
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c780bf142838de060800000000000000
+      internalID: 6984383192597465212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_73
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 703
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97457b02baba9adf0800000000000000
+      internalID: -168414759573040007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_74
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 703
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4beecb10c12a850800000000000000
+      internalID: 6386698015355090150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_75
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 703
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2176d6dd2c31700800000000000000
+      internalID: 509965439102030568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_76
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 703
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3678ef3740c3c24c0800000000000000
+      internalID: -4311004753476810909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_77
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 703
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb507505cc7e90e0800000000000000
+      internalID: -2261232777251759154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_78
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 607
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c290894ce5183da10800000000000000
+      internalID: 1933030909097281836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_79
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 601
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba4bfb70c37942c0800000000000000
+      internalID: -4446895886500672835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_80
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 601
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd51b76f4c0b81a0800000000000000
+      internalID: -6806332876658745926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_81
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 601
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d31ff2561d3fc430800000000000000
+      internalID: 3805327376242381785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_82
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 602
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f1e0b314325a080800000000000000
+      internalID: -9176889902626889897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_83
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 602
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fe4f8da24b28810800000000000000
+      internalID: 1766172100004212495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_84
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 602
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fd98a88e8dd3180800000000000000
+      internalID: -9133905975969194121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_85
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 607
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54501de185f8f5c30800000000000000
+      internalID: 4350353373700097349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_86
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 607
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6da5f668e2496b00800000000000000
+      internalID: 822261972899048810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_87
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 511
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17973af34c5b8f620800000000000000
+      internalID: 2808194222151399793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_88
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 511
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd4be907ba74fad0800000000000000
+      internalID: -2669373752559841853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_89
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 511
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2738e6ad38e1800800000000000000
+      internalID: 585049975784960766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_90
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 511
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e0e96f741cf1010800000000000000
+      internalID: 1161859743709269632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_91
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 511
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4dc4f3556e57ac0800000000000000
+      internalID: -3857924251964353337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 415
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19e6c6eeb75165b0800000000000000
+      internalID: -5376920002676463330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_93
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 415
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ed6cdb31d6a7730800000000000000
+      internalID: 3997627550800469658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_94
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 415
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7d77b02fa3655b0800000000000000
+      internalID: -5380047893598578757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_95
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 415
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828ff243bc24bab20800000000000000
+      internalID: 3146682205169776680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_96
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 415
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d12aabce421b8b70800000000000000
+      internalID: 8902229218061591000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_97
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 415
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62eac1fa55370e90800000000000000
+      internalID: -7059615226160029074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_98
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 319
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3152228c3cc1b5920800000000000000
+      internalID: 2980007205637596435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_99
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 319
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1332b9c42816a3f0800000000000000
+      internalID: -889997330077306083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_100
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 319
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c5f7b59b4610390800000000000000
+      internalID: -7853885527890633631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_101
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 319
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ca0da1c5fc954e0800000000000000
+      internalID: -1992333365640909675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_102
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 319
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab709a076b48af890800000000000000
+      internalID: -7423475116657801286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_103
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 313
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811f6950a1086fa10800000000000000
+      internalID: 1942881138508230936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_104
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 323
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc9355b7c6b54a90800000000000000
+      internalID: -7330251849618711306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_105
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 314
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55732c3844551da30800000000000000
+      internalID: 4238262477089027925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_106
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 314
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b631056daa089600800000000000000
+      internalID: 475141500527785656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_107
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 314
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cd99595f5a68b10800000000000000
+      internalID: 1983455160098741353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_108
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 223
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2923defd546d660800000000000000
+      internalID: 7410187064944267945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_109
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 223
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe9225be22e40e60800000000000000
+      internalID: 7927709934314233595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_110
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 223
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5249ee3867ea8b0800000000000000
+      internalID: -5139039815767677459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_111
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 127
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a3dc1306d2ae0d0800000000000000
+      internalID: -3392849478094603764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_112
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1aa63dfce7ed1650800000000000000
+      internalID: 6205370866632927770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_113
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 127
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a31cc7dd739d8d0800000000000000
+      internalID: -2821162267150566859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_114
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0566618ec2b29e170800000000000000
+      internalID: 8208139267731777104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_115
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 31
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9044ce5599d05e90800000000000000
+      internalID: -7038886982016810853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_116
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 31
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a421e41fbc87c5cb0800000000000000
+      internalID: -4873887879399599542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_117
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 30
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795e693cd332bbca0800000000000000
+      internalID: -6000163330359630441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_118
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 30
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed712aec685145a0800000000000000
+      internalID: -6538847959157473817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_119
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 30
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09692ac0a97aa3160800000000000000
+      internalID: 7006096450407011984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minotaur_Boss_0: 669754188079128083
+      Minotaur_Boss_1: 4260994687760024680
+      Minotaur_Boss_10: 3048186202220981753
+      Minotaur_Boss_100: -7853885527890633631
+      Minotaur_Boss_101: -1992333365640909675
+      Minotaur_Boss_102: -7423475116657801286
+      Minotaur_Boss_103: 1942881138508230936
+      Minotaur_Boss_104: -7330251849618711306
+      Minotaur_Boss_105: 4238262477089027925
+      Minotaur_Boss_106: 475141500527785656
+      Minotaur_Boss_107: 1983455160098741353
+      Minotaur_Boss_108: 7410187064944267945
+      Minotaur_Boss_109: 7927709934314233595
+      Minotaur_Boss_11: -1456155500881764181
+      Minotaur_Boss_110: -5139039815767677459
+      Minotaur_Boss_111: -3392849478094603764
+      Minotaur_Boss_112: 6205370866632927770
+      Minotaur_Boss_113: -2821162267150566859
+      Minotaur_Boss_114: 8208139267731777104
+      Minotaur_Boss_115: -7038886982016810853
+      Minotaur_Boss_116: -4873887879399599542
+      Minotaur_Boss_117: -6000163330359630441
+      Minotaur_Boss_118: -6538847959157473817
+      Minotaur_Boss_119: 7006096450407011984
+      Minotaur_Boss_12: 6676936177030317393
+      Minotaur_Boss_13: -6521543853274593041
+      Minotaur_Boss_14: -5623031021747092614
+      Minotaur_Boss_15: 3325942927098603744
+      Minotaur_Boss_16: 5783786418226682204
+      Minotaur_Boss_17: -7643769405442152788
+      Minotaur_Boss_18: -428593328606523102
+      Minotaur_Boss_19: 6572526678975521585
+      Minotaur_Boss_2: -4272498925299801480
+      Minotaur_Boss_20: 1244614001577155054
+      Minotaur_Boss_21: 4984976771413005359
+      Minotaur_Boss_22: 1906404430864437927
+      Minotaur_Boss_23: 1693668745274474751
+      Minotaur_Boss_24: -6433505513041962456
+      Minotaur_Boss_25: 1779638279342251795
+      Minotaur_Boss_26: -7581003313693115748
+      Minotaur_Boss_27: 1062107888499769901
+      Minotaur_Boss_28: 9192043059554204461
+      Minotaur_Boss_29: -2390703897099606479
+      Minotaur_Boss_3: -4128092141308274135
+      Minotaur_Boss_30: -8096722952787050380
+      Minotaur_Boss_31: -4313849111679165759
+      Minotaur_Boss_32: 8430610880078366137
+      Minotaur_Boss_33: -6181973124934228018
+      Minotaur_Boss_34: -6353734163650206917
+      Minotaur_Boss_35: -1407552101372291706
+      Minotaur_Boss_36: -4651824964336028201
+      Minotaur_Boss_37: 556642138341306098
+      Minotaur_Boss_38: 3124411506202959407
+      Minotaur_Boss_39: 2478108956504817184
+      Minotaur_Boss_4: 1997163526132515589
+      Minotaur_Boss_40: 7525453399393402853
+      Minotaur_Boss_41: 6606455075731984193
+      Minotaur_Boss_42: 2236104901888246382
+      Minotaur_Boss_43: 704746561055497679
+      Minotaur_Boss_44: 1053019566945686344
+      Minotaur_Boss_45: 6019976930997016804
+      Minotaur_Boss_46: 1027068125229546821
+      Minotaur_Boss_47: -7754094639036221292
+      Minotaur_Boss_48: 7552605267614715292
+      Minotaur_Boss_49: 4017943490057064149
+      Minotaur_Boss_5: 191967285645869480
+      Minotaur_Boss_50: -1957360675658839576
+      Minotaur_Boss_51: -351938480317827693
+      Minotaur_Boss_52: 9070248656776433955
+      Minotaur_Boss_53: 5151540400348778929
+      Minotaur_Boss_54: -2491272541521852382
+      Minotaur_Boss_55: -5165326812302511442
+      Minotaur_Boss_56: 287552487100032616
+      Minotaur_Boss_57: -3488929769011300148
+      Minotaur_Boss_58: 7127771008594684011
+      Minotaur_Boss_59: -4350460379654373166
+      Minotaur_Boss_6: 591857041528402689
+      Minotaur_Boss_60: 5646855694570754606
+      Minotaur_Boss_61: 1070412297697186707
+      Minotaur_Boss_62: 6293582536505906699
+      Minotaur_Boss_63: 8305086418187977547
+      Minotaur_Boss_64: 5859273081376221170
+      Minotaur_Boss_65: 7345240496061576099
+      Minotaur_Boss_66: -8852674433633319799
+      Minotaur_Boss_67: -6691926966722293524
+      Minotaur_Boss_68: 7162292645845292303
+      Minotaur_Boss_69: -269309874825469045
+      Minotaur_Boss_7: -5644277721027123171
+      Minotaur_Boss_70: -1485517254542981900
+      Minotaur_Boss_71: -8597007298201206688
+      Minotaur_Boss_72: 6984383192597465212
+      Minotaur_Boss_73: -168414759573040007
+      Minotaur_Boss_74: 6386698015355090150
+      Minotaur_Boss_75: 509965439102030568
+      Minotaur_Boss_76: -4311004753476810909
+      Minotaur_Boss_77: -2261232777251759154
+      Minotaur_Boss_78: 1933030909097281836
+      Minotaur_Boss_79: -4446895886500672835
+      Minotaur_Boss_8: -4823094234459676228
+      Minotaur_Boss_80: -6806332876658745926
+      Minotaur_Boss_81: 3805327376242381785
+      Minotaur_Boss_82: -9176889902626889897
+      Minotaur_Boss_83: 1766172100004212495
+      Minotaur_Boss_84: -9133905975969194121
+      Minotaur_Boss_85: 4350353373700097349
+      Minotaur_Boss_86: 822261972899048810
+      Minotaur_Boss_87: 2808194222151399793
+      Minotaur_Boss_88: -2669373752559841853
+      Minotaur_Boss_89: 585049975784960766
+      Minotaur_Boss_9: 7501259004394773087
+      Minotaur_Boss_90: 1161859743709269632
+      Minotaur_Boss_91: -3857924251964353337
+      Minotaur_Boss_92: -5376920002676463330
+      Minotaur_Boss_93: 3997627550800469658
+      Minotaur_Boss_94: -5380047893598578757
+      Minotaur_Boss_95: 3146682205169776680
+      Minotaur_Boss_96: 8902229218061591000
+      Minotaur_Boss_97: -7059615226160029074
+      Minotaur_Boss_98: 2980007205637596435
+      Minotaur_Boss_99: -889997330077306083
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

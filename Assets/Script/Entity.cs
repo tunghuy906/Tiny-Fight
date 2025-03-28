@@ -71,7 +71,7 @@ public class Entity : MonoBehaviour
 	#region Velocity
 	public void SetVelocity(float _xVelocity, float _yVelocity)
 	{
-		rb.linearVelocity = new Vector2(_xVelocity, _yVelocity);
+		rb.velocity = new Vector2(_xVelocity, _yVelocity);
 		FlipController(_xVelocity);
 	}
 	#endregion
