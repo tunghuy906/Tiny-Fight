@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Newt Slinger Jump_0: -314874752516958178
+      Newt Slinger Jump_1: -1670688904981827705
+      Newt Slinger Jump_2: 4099143735458514625
+      Newt Slinger Jump_3: -8167892618973684615
+      Newt Slinger Jump_4: -7533593502783357896
+      Newt Slinger Jump_5: -7214149280847092909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

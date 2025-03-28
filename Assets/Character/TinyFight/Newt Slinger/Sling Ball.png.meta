@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sling Ball_0: -1676844048726542808
+      Sling Ball_1: -5448164304659663309
+      Sling Ball_2: 254035093597745597
+      Sling Ball_3: -6547124964388929247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
