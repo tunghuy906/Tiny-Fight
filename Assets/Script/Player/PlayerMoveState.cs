@@ -20,7 +20,7 @@ public class PlayerMoveState : PlayerGroundedState
 	{
 		base.Update();
 
-		player.SetVelocity(xInput * player.moveSpeed, player.rb.linearVelocity.y);
+		player.SetVelocity(xInput * player.moveSpeed, player.rb.velocity.y);
 
 		if (xInput == 0)
 		{

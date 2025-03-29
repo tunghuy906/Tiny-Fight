@@ -52,7 +52,7 @@ public class PlayerShootingState : PlayerState
 
 			if (rb != null)
 			{
-				rb.linearVelocity = new Vector2(player.facingDir * 10f, 0); 
+				rb.velocity = new Vector2(player.facingDir * 10f, 0); 
 				bullet.transform.localScale = new Vector3(player.facingDir, 1, 1);
 			}
 		}
