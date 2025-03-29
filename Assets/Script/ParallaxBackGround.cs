@@ -1,38 +1,36 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ParallaxBackGround : MonoBehaviour
 {
 
-    private GameObject cam;
+	public Camera cam;
+	public Transform followTarget;
 
-    [SerializeField] private float parallaxeffect;
+	Vector2 startingPosition;
 
-    private float xPosition;
-	private float length;
+	float startingZ;
+
+	Vector2 camMoveSinceStart => (Vector2)cam.transform.position - startingPosition;
+
+	float zDistanceFromTarget => transform.position.z - followTarget.transform.position.z;
+
+	float clippingPlane => (cam.transform.position.z + (zDistanceFromTarget > 0 ? cam.farClipPlane : cam.nearClipPlane));
+
+	float parallaxFactor => Mathf.Abs(zDistanceFromTarget) / clippingPlane;
+
 	void Start()
 	{
-		cam = GameObject.Find("Main Camera");
-
-		length = GetComponent<SpriteRenderer>().bounds.size.x;
-
-		xPosition = transform.position.x;
+		startingPosition = transform.position;
+		startingZ = transform.position.z;
 	}
 
-	// Update is called once per frame
 	void Update()
-    {
-        float distanceToMove = cam.transform.position.x * parallaxeffect;
-		float distanceMoved = cam.transform.position.x * (1 - parallaxeffect);
+	{
+		
+		Vector2 newPosition = startingPosition + camMoveSinceStart * parallaxFactor;
 
-		transform.position = new Vector3(xPosition + distanceToMove, transform.position.y);
 
-		if(distanceMoved > xPosition + length)
-		{
-			xPosition = xPosition + length;
-		}
-		else
-		{
-			xPosition = xPosition - length;
-		}
-    }
+		transform.position = new Vector3(newPosition.x, newPosition.y, startingZ);
+	}
 }

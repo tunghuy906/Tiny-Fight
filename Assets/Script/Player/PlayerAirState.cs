@@ -21,7 +21,7 @@ public class PlayerAirState : PlayerGroundedState
 		base.Update();
 
 		float moveInput = Input.GetAxisRaw("Horizontal");
-		player.SetVelocity(moveInput * player.moveSpeed, rb.linearVelocity.y);
+		player.SetVelocity(moveInput * player.moveSpeed, rb.velocity.y);
 
 		if (player.IsGroundDetected())
 		{
