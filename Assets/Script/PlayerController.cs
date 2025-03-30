@@ -160,7 +160,7 @@ public class PlayerController : MonoBehaviour
 
 	public void OnRangedAttack(InputAction.CallbackContext context)
 	{
-		if (context.started)
+		if (context.started && IsAlive)
 		{
 			animator.SetTrigger(AnimationStrings.rangedAttackTrigger);
 		}
