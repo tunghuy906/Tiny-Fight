@@ -25,7 +25,7 @@ public class ParallaxBackGround : MonoBehaviour
 		startingZ = transform.position.z;
 	}
 
-	void Update()
+	void LateUpdate()
 	{
 		
 		Vector2 newPosition = startingPosition + camMoveSinceStart * parallaxFactor;
