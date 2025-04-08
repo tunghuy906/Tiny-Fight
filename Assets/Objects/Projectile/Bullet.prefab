@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  moveSpeed: {x: 100, y: 0}
+  moveSpeed: {x: 130, y: 0}
   knockback: {x: 3, y: 0}
 --- !u!58 &3681356541561376142
 CircleCollider2D:
