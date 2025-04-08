@@ -8,10 +8,10 @@ public class ManaBar : MonoBehaviour
 	public Slider manaSlider;
 	public TMP_Text manaBarText;
 
-	public int MaxMana = 100;
+	public int MaxMana = 400;
 	public int currentMana;
 	private float manaRegenRate = 1f;
-	private int manaRegenAmount = 10; // Mỗi lần hồi phục 10 mana
+	private int manaRegenAmount = 100; // Mỗi lần hồi phục 10 mana
 
 	private void Awake()
 	{

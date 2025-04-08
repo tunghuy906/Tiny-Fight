@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3681356541561376142}
   m_Layer: 8
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,6 +129,7 @@ MonoBehaviour:
   damage: 10
   moveSpeed: {x: 130, y: 0}
   knockback: {x: 3, y: 0}
+  maxDistance: 20
 --- !u!58 &3681356541561376142
 CircleCollider2D:
   m_ObjectHideFlags: 0

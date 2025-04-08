@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Grounded
   - Enemy
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Chest
   - Coin
   - Ladder
-  - 
+  - Projectile
   - 
   - 
   - 
@@ -42,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1248861713
     locked: 0
