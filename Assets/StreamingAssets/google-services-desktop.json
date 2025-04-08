@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "822421006829",
+    "firebase_url": "https://tiny-fight-f89a3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tiny-fight-f89a3",
+    "storage_bucket": "tiny-fight-f89a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822421006829:android:fe21fa0858f65f40aedfe4",
+        "android_client_info": {
+          "package_name": "com.dica.tinyfight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc0NMq8hBm21zIgT-AgiS4HhpOUpZe6MI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
