@@ -1121,7 +1121,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -111.20412, y: 1.0699997, z: -10}
+  m_LocalPosition: {x: 23.502798, y: 1.3099997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10955,7 +10955,7 @@ Transform:
   m_GameObject: {fileID: 1275055596}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -111.20412, y: 1.0699997, z: -10}
+  m_LocalPosition: {x: 23.502798, y: 1.3099997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11858,7 +11858,7 @@ Transform:
   m_GameObject: {fileID: 1708604338}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18900,11 +18900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7490724774299545171, guid: a4a88c92bacb5a84a817a3fa35fc2b18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -117.6
+      value: 17.1
       objectReference: {fileID: 0}
     - target: {fileID: 7490724774299545171, guid: a4a88c92bacb5a84a817a3fa35fc2b18, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.29
+      value: -2.05
       objectReference: {fileID: 0}
     - target: {fileID: 7490724774299545171, guid: a4a88c92bacb5a84a817a3fa35fc2b18, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19228,6 +19228,34 @@ PrefabInstance:
     - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
       propertyPath: flightSpeed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
+      propertyPath: safeDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
+      propertyPath: chaseDistance
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
+      propertyPath: evadeDistance
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
+      propertyPath: shootInterval
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
+      propertyPath: bossZoneRadius
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
+      propertyPath: stopChaseRange
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
+      propertyPath: bulletLayer.m_Bits
+      value: 32768
       objectReference: {fileID: 0}
     - target: {fileID: 1794792012782017222, guid: 6bc2348ebc4b7e04791c6aa102080529, type: 3}
       propertyPath: waypoints.Array.size
