@@ -19,9 +19,9 @@ TagManager:
   - EnemyHitbox
   - GroundDetection
   - Pickup
-  - 
-  - 
-  - 
+  - Chest
+  - Coin
+  - Ladder
   - 
   - 
   - 

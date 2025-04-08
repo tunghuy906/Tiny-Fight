@@ -138,10 +138,10 @@ TextureImporter:
       name: HURT_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 1
-        width: 64
-        height: 66
+        x: 0
+        y: 0
+        width: 79
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: HURT_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 7
-        width: 63
-        height: 62
+        x: 79
+        y: 0
+        width: 79
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: HURT_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 7
-        width: 63
-        height: 62
+        x: 158
+        y: 0
+        width: 79
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,10 +201,10 @@ TextureImporter:
       name: HURT_3
       rect:
         serializedVersion: 2
-        x: 243
-        y: 1
-        width: 63
-        height: 68
+        x: 237
+        y: 0
+        width: 79
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,7 +221,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dec22f1819df3ea4c98c71f10c521713
     internalID: 0
     vertices: []
     indices: 

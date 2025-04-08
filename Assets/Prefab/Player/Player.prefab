@@ -284,6 +284,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 96d8ddb7-253d-4512-ac62-6f1c8df1dcb6
     m_ActionName: Player/Fire[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2663934922946314857}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnClimb
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 0f569f34-14fa-433a-9616-99d66dda5436
+    m_ActionName: Player/Climb[/Keyboard/z]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -306,9 +322,16 @@ MonoBehaviour:
   airWalkSpeed: 3
   dashTime: 0.5
   dashCooldown: 1
+  climbSpeed: 3
+  ladderLayer:
+    serializedVersion: 2
+    m_Bits: 0
   jumpInpulse: 10
+  playerUnlocked: 0
+  manaCostPerShot: 10
   maxJumps: 2
   jumpCount: 0
+  skillPoints: 0
 --- !u!95 &580977032824888410
 Animator:
   serializedVersion: 5
@@ -392,6 +415,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  healthChanged:
+    m_PersistentCalls:
+      m_Calls: []
   _maxHealth: 100
   _health: 100
   isInvincible: 0
