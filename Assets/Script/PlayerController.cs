@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
 	[SerializeField] private float climbSpeed = 3f;
 	[SerializeField] private LayerMask ladderLayer;
+	[SerializeField] private LayerMask groundLayer; 
 	private bool isClimbing = false;
 	private bool wasOnLadder = false;
 
@@ -35,8 +36,11 @@ public class PlayerController : MonoBehaviour
 
 	private Rigidbody2D rb;
 	private Animator animator;
+	private Collider2D playerCollider;
 
 	public int skillPoints;
+
+	private Ladder currentLadder; 
 
 	public float CurrentMoveSpeed
 	{
@@ -80,11 +84,6 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
-	private bool IsOnLadder()
-	{
-		return Physics2D.OverlapCircle(transform.position, 0.5f, ladderLayer) != null;
-	}
-
 	public bool IsMoving
 	{
 		get { return _isMoving; }
@@ -125,6 +124,7 @@ public class PlayerController : MonoBehaviour
 		touchingDirections = GetComponent<TouchingDirections>();
 		damageable = GetComponent<Damageable>();
 		manaBar = FindObjectOfType<ManaBar>();
+		playerCollider = GetComponent<Collider2D>();
 	}
 
 	private void FixedUpdate()
@@ -142,18 +142,47 @@ public class PlayerController : MonoBehaviour
 		animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
 
 		if (isClimbing)
-		{
-			rb.velocity = new Vector2(0, moveInput.y * climbSpeed); // Chỉ di chuyển theo trục Y
-		}
+			{
+				// Di chuyển theo trục Y khi trèo nếu có input
+				if (moveInput.y != 0)
+				{
+					rb.velocity = new Vector2(0, moveInput.y * climbSpeed);
+				}
+				else
+				{
+					// Giữ nguyên vị trí khi không có input
+					rb.velocity = Vector2.zero;
+				}
 
-		// Nếu vừa rời khỏi thang, bật lại trọng lực
+				// Đảm bảo trọng lực luôn bằng 0 khi trèo
+				rb.gravityScale = 0;
+
+				// Tạm thời vô hiệu hóa va chạm với ground khi trèo
+				Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Ground"), true);
+
+				animator.SetBool(AnimationStrings.isClimbing, true);
+
+				// Chỉ dừng trèo khi rời khỏi thang
+				if (currentLadder == null || (!IsOnLadder() && moveInput.y == 0))
+				{
+					SetClimbingState(false);
+				}
+			}
+			else
+			{
+				// Đảm bảo tắt trạng thái trèo khi không trèo
+				animator.SetBool(AnimationStrings.isClimbing, false);
+
+				// Bật lại va chạm với ground khi không trèo
+				Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Ground"), false);
+			}
+
 		if (wasOnLadder && !isClimbing)
 		{
-			rb.gravityScale = 1;
+			rb.gravityScale = 3; 
 		}
 
 		wasOnLadder = isClimbing;
-
 	}
 
 	public void OnMove(InputAction.CallbackContext context)
@@ -180,18 +209,22 @@ public class PlayerController : MonoBehaviour
 
 	public void OnClimb(InputAction.CallbackContext context)
 	{
-		if (context.started)
+		if (context.started && currentLadder != null)
 		{
-			if (IsOnLadder())
+			// Căn chỉnh nhân vật vào giữa thang
+			transform.position = new Vector2(currentLadder.transform.position.x, transform.position.y);
+
+			SetClimbingState(true);
+		}
+		else if (context.canceled && isClimbing)
+		{
+			// Ngừng trèo
+			if (!IsOnLadder())
 			{
-				isClimbing = !isClimbing;
-				rb.gravityScale = isClimbing ? 0 : 1; // Tắt trọng lực khi leo
-				rb.velocity = Vector2.zero; // Reset vận tốc để tránh bị trượt
-				animator.SetBool(AnimationStrings.isClimbing, isClimbing);
+				SetClimbingState(false);
 			}
 		}
 	}
-
 
 	public void OnDash(InputAction.CallbackContext context)
 	{
@@ -287,6 +320,44 @@ public class PlayerController : MonoBehaviour
 		dashSpeed /= multiplier;
 
 		Debug.Log("Speed Buff Expired.");
+	}
+
+	public void SetClimbingState(bool state)
+	{
+		isClimbing = state;
+		rb.gravityScale = state ? 0 : 3; 
+		rb.velocity = Vector2.zero; 
+		animator.SetBool(AnimationStrings.isClimbing, state); 
+		// Vô hiệu hóa hoặc bật lại va chạm với ground
+		Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Ground"), state);
+	}
+
+	public void SetNearLadder(Ladder ladder)
+	{
+		currentLadder = ladder;
+		if (ladder != null)
+		{
+			Debug.Log("Player is near a ladder.");
+		}
+		else
+		{
+			Debug.Log("Player left the ladder area.");
+		}
+	}
+
+	private bool IsOnLadder()
+	{
+		// Tìm các collider trong bán kính xung quanh nhân vật
+		Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.5f);
+		foreach (var collider in colliders)
+		{
+			// Kiểm tra nếu collider có tag "Ladder"
+			if (collider.CompareTag("Ladder"))
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 
 }
