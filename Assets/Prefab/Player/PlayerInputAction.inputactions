@@ -53,7 +53,7 @@
                 {
                     "name": "Climb",
                     "type": "Button",
-                    "id": "0f569f34-14fa-433a-9616-99d66dda5436",
+                    "id": "1ddbd318-e254-475b-bf1f-cbcf34961144",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -272,11 +272,22 @@
                 },
                 {
                     "name": "",
-                    "id": "08b27b73-b66f-43a5-a789-298434197409",
-                    "path": "<Keyboard>/c",
+                    "id": "ce4383d0-37ab-4f80-abec-69ca982d887f",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Climb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "441237da-cb69-4393-a198-0e2c7b487ed1",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Climb",
                     "isComposite": false,
                     "isPartOfComposite": false

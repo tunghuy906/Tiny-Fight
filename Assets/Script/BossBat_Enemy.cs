@@ -70,7 +70,10 @@ public class BossBat_Enemy : MonoBehaviour
 					ChasePlayer();
 					chaseTimer += Time.fixedDeltaTime;
 				}
-				else if (evadeTimer >= evadeCooldown && bulletDetectionTimer >= bulletDetectionCooldown && IsBulletNearby(out Vector2 evadeDirection))
+				else if (IsPlayerInBossZone() && // Check if player is in the boss zone
+				         evadeTimer >= evadeCooldown && 
+				         bulletDetectionTimer >= bulletDetectionCooldown && 
+				         IsBulletNearby(out Vector2 evadeDirection))
 				{
 					evadeTimer = 0f; // Reset evade timer
 					bulletDetectionTimer = 0f; // Reset bullet detection timer
