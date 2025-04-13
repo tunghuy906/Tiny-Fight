@@ -298,8 +298,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 0f569f34-14fa-433a-9616-99d66dda5436
-    m_ActionName: Player/Climb[/Keyboard/z]
+    m_ActionId: 1ddbd318-e254-475b-bf1f-cbcf34961144
+    m_ActionName: Player/Climb[/Keyboard/w,/Keyboard/s]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -324,6 +324,9 @@ MonoBehaviour:
   dashCooldown: 1
   climbSpeed: 3
   ladderLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  groundLayer:
     serializedVersion: 2
     m_Bits: 0
   jumpInpulse: 10

@@ -283,11 +283,11 @@
                 },
                 {
                     "name": "",
-                    "id": "441237da-cb69-4393-a198-0e2c7b487ed1",
+                    "id": "2aeaf3b1-14b4-41fc-b39e-f55ca196644f",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Climb",
                     "isComposite": false,
                     "isPartOfComposite": false

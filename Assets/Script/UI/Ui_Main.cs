@@ -1,6 +1,7 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ui_Main : MonoBehaviour
 {
@@ -41,6 +42,12 @@ public class Ui_Main : MonoBehaviour
 	}
 
 	public void RestartGameButton() => GameManager.instance.RestartLevel();
+
+	public void ChangeScene(string sceneName)
+	{
+		Time.timeScale = 1; // tránh trường hợp bị pause khi chuyển scene
+		SceneManager.LoadScene(sceneName);
+	}
 }
 
 

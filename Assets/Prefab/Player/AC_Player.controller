@@ -33,7 +33,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: player_climb
-  m_Speed: 1
+  m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3637242088941753455}
@@ -1047,18 +1047,18 @@ AnimatorStateMachine:
   - {fileID: -7159413030979482021}
   m_EntryTransitions: []
   m_StateMachineTransitions:
+  - first: {fileID: 194488889767609798}
+    second:
+    - {fileID: 4042715499552034477}
+  - first: {fileID: 2901519604288434793}
+    second:
+    - {fileID: -5930867582327112048}
+    - {fileID: -1720345838407475539}
   - first: {fileID: 8570142236880557548}
     second:
     - {fileID: -2051391451580461842}
     - {fileID: 749556664457225024}
     - {fileID: -95236920108923712}
-  - first: {fileID: 2901519604288434793}
-    second:
-    - {fileID: -5930867582327112048}
-    - {fileID: -1720345838407475539}
-  - first: {fileID: 194488889767609798}
-    second:
-    - {fileID: 4042715499552034477}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 730, y: 100, z: 0}
   m_EntryPosition: {x: 210, y: 120, z: 0}
