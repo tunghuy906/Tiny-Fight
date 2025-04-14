@@ -201,8 +201,8 @@ MonoBehaviour:
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
-  _maxHealth: 100
-  _health: 100
+  _maxHealth: 300
+  _health: 300
   isInvincible: 0
   invincibilityTime: 0.25
   _isAlive: 1
@@ -241,10 +241,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flightSpeed: 2
   waypointReachedDistance: 0.1
-  waypoints: []
   bulletPrefab: {fileID: 3819825942979016470, guid: ce9c2613d94c5914597e2bcac2820536, type: 3}
   firePoint: {fileID: 6614068013509806632}
   bulletSpeed: 10
   shootInterval: 3
   bulletsPerWave: 15
   switchModeTime: 5
+  chaseDistance: 10
+  evadeDistance: 3
+  chaseDuration: 5
+  safeDistance: 3
+  bossZoneRadius: 15
+  randomMoveInterval: 2
