@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -21,10 +21,17 @@ public class GameManager : MonoBehaviour
 	}
 
 	public void UnlockPlayer() => player.playerUnlocked = true;
-	public void RestartLevel(){
-		SceneManager.LoadScene(0);
+	public void RestartLevel()
+	{
+		DontDestroy[] donts = FindObjectsOfType<DontDestroy>();
+		foreach (var d in donts)
+		{
+			Destroy(d.gameObject);
+		}
 		SaveInfo();
+		SceneManager.LoadScene(0);
 	}
+
 	public void SaveInfo()
 	{
 		int savedSkillPoint = PlayerPrefs.GetInt("SkillPoints");

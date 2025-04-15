@@ -18,6 +18,7 @@ public class BossBat_Enemy : MonoBehaviour
 	public float safeDistance = 3f; // Khoảng cách an toàn tối thiểu giữa boss và người chơi
 	public float bossZoneRadius = 15f; // Bán kính vùng boss có thể di chuyển
 	public float randomMoveInterval = 2f; // Thời gian giữa các lần chọn vị trí di chuyển ngẫu nhiên
+	public GameObject itemDropPrefab;
 	private Vector2 randomTargetPosition;
 	private float randomMoveTimer = 0f;
 	private float chaseTimer = 0f;
@@ -96,9 +97,15 @@ public class BossBat_Enemy : MonoBehaviour
 		{
 			rb.gravityScale = 2f;
 			rb.velocity = new Vector2(0, rb.velocity.y);
+
+			if (!hasStartedDeath)
+			{
+				hasStartedDeath = true;
+				StartCoroutine(DestroyAfterDeath());
+			}
 		}
 	}
-
+	private bool hasStartedDeath = false;
 	private bool IsPlayerInChaseRange()
 	{
 		if (player == null) return false;
@@ -263,6 +270,22 @@ public class BossBat_Enemy : MonoBehaviour
 			spriteRenderer.flipX = !spriteRenderer.flipX;
 		}
 	}
+
+	private void DropItem()
+	{
+		if (itemDropPrefab != null)
+		{
+			Instantiate(itemDropPrefab, transform.position, Quaternion.identity);
+		}
+	}
+	private IEnumerator DestroyAfterDeath()
+	{
+		DropItem(); // Gọi rơi vật phẩm
+
+		yield return new WaitForSeconds(1f); // Đợi animation chết hoàn tất
+		Destroy(gameObject);
+	}
+
 
 	private void OnDrawGizmosSelected()
 	{

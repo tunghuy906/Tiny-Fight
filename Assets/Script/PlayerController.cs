@@ -184,7 +184,10 @@ public class PlayerController : MonoBehaviour
 
 		wasOnLadder = isClimbing;
 	}
-
+	void Start()
+	{
+		SetToSpawnPoint();
+	}
 	public void OnMove(InputAction.CallbackContext context)
 	{
 		moveInput = context.ReadValue<Vector2>();
@@ -358,6 +361,18 @@ public class PlayerController : MonoBehaviour
 			}
 		}
 		return false;
+	}
+	void SetToSpawnPoint()
+	{
+		GameObject spawn = GameObject.Find("PlayerSpawnPoint");
+		if (spawn != null)
+		{
+			transform.position = spawn.transform.position;
+		}
+		else
+		{
+			Debug.LogWarning("Không tìm thấy PlayerSpawnPoint trong scene!");
+		}
 	}
 
 }
