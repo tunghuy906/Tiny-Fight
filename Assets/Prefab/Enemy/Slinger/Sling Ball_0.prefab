@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3311808735847286878}
   - component: {fileID: -7955653029412078901}
   - component: {fileID: 1441115828559328522}
-  - component: {fileID: 8012978877149803531}
+  - component: {fileID: -9071271622510492223}
   m_Layer: 0
   m_Name: Sling Ball_0
   m_TagString: Untagged
@@ -171,7 +171,7 @@ CircleCollider2D:
   m_Offset: {x: -0.006192525, y: 0}
   serializedVersion: 2
   m_Radius: 0.11909484
---- !u!114 &8012978877149803531
+--- !u!114 &-9071271622510492223
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
