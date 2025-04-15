@@ -253,3 +253,4 @@ MonoBehaviour:
   safeDistance: 3
   bossZoneRadius: 15
   randomMoveInterval: 2
+  itemDropPrefab: {fileID: 9045915416952907907, guid: 899334b0748a7a0479ec548ce6373943, type: 3}

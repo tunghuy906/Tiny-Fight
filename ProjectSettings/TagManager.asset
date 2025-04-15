@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - Projectile
   - Ladder
+  - Persistent
+  - PlayerStart
+  - PlayerSpawnPoint
   layers:
   - Default
   - TransparentFX
@@ -25,8 +28,8 @@ TagManager:
   - Coin
   - Ladder
   - Projectile
-  - 
-  - 
+  - PlayerStart
+  - PlayerSpawnPoint
   - 
   - 
   - 
