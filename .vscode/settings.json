@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Tiny-Fight.sln"
+    "dotnet.defaultSolution": "Tiny-Fight.sln",
+    "dotnet.preferCSharpExtension": true
 }

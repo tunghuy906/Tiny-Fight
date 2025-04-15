@@ -19,7 +19,12 @@ public class Bullet_Slinger : MonoBehaviour
 			Damageable playerDamageable = collider.GetComponent<Damageable>();
 			if (playerDamageable != null) // Nếu Player có Damageable.cs
 			{
-				playerDamageable.Hit(damage, knockbackForce); // Gây sát thương
+				// Knock back theo hướng
+                Vector2 knockback = knockbackForce;
+                if (GetComponent<Rigidbody2D>().velocity.x < 0)
+                    knockback = new Vector2(-knockbackForce.x, knockbackForce.y);
+                    
+				playerDamageable.Hit(damage, knockback); 
 			}
 
 			Destroy(gameObject); // Hủy viên đạn sau khi gây sát thương

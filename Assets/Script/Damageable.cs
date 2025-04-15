@@ -12,16 +12,10 @@ public class Damageable : MonoBehaviour
     [SerializeField]
     private int _maxHealth = 100;
 
-	public int MaxHealth
+    public int MaxHealth
     {
-        get
-        {
-            return _maxHealth;
-        }
-        set
-        {
-            _maxHealth = value;
-        }
+        get { return _maxHealth; }
+        set { _maxHealth = value; }
     }
 
     [SerializeField]
@@ -29,16 +23,13 @@ public class Damageable : MonoBehaviour
 
     public int Health
     {
-        get 
-        {
-            return _health;
-        }
+        get { return _health; }
         set
         {
             _health = value;
             healthChanged?.Invoke(_health, MaxHealth);
 
-            if(_health <= 0)
+            if (_health <= 0)
             {
                 IsAlive = false;
             }
@@ -48,68 +39,60 @@ public class Damageable : MonoBehaviour
     [SerializeField]
     private bool isInvincible = false;
 
-	public bool IsHit
+    public bool IsHit
     {
-        get
-        {
-            return animator.GetBool(AnimationStrings.isHit);
-        }
-        private set
-        {
-            animator.SetBool(AnimationStrings.isHit, value);
-        }
+        get { return animator.GetBool(AnimationStrings.isHit); }
+        private set { animator.SetBool(AnimationStrings.isHit, value); }
     }
 
-	private float timeSinceHit = 0;
+    private float timeSinceHit = 0f;
     public float invincibilityTime = 0.25f;
 
     [SerializeField]
-	private bool _isAlive = true;
+    private bool _isAlive = true;
+
     public bool IsAlive
     {
-        get
-        {
-            return _isAlive;
-        }
+        get { return _isAlive; }
         set
         {
             _isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
-            Debug.Log("IsAlive set" + value);
+            if (!_isAlive)
+            {
+                // OnDeath();
+                Debug.Log("Character is dead.");
+            }
         }
     }
 
-	public bool LockVelocity
-	{
-		get
-		{
-			return animator.GetBool(AnimationStrings.lockVelocity);
-		}
-		set
-		{
-			animator.SetBool(AnimationStrings.lockVelocity, value);
-		}
-	}
-	private void Awake()
-	{
-		animator = GetComponent<Animator>();
-	}
+    public bool LockVelocity
+    {
+        get { return animator.GetBool(AnimationStrings.lockVelocity); }
+        set { animator.SetBool(AnimationStrings.lockVelocity, value); }
+    }
 
-	private void Update()
-	{
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
         if (isInvincible)
         {
-            if(timeSinceHit > invincibilityTime)
+            timeSinceHit += Time.deltaTime;
+            if (timeSinceHit > invincibilityTime)
             {
                 isInvincible = false;
-                timeSinceHit = 0;
+                timeSinceHit = 0f;
             }
-            timeSinceHit += Time.deltaTime;
         }
-	}
-	public bool Hit(int damage, Vector2 knockback)
+    }
+
+    public bool Hit(int damage, Vector2 knockback)
     {
-        if(IsAlive && !isInvincible)
+        if (IsAlive && !isInvincible)
         {
             Health -= damage;
             isInvincible = true;
@@ -129,10 +112,9 @@ public class Damageable : MonoBehaviour
     {
         if (IsAlive && Health < MaxHealth)
         {
-            int maxHeal = Mathf.Max(MaxHealth - Health, 0);
-            int actualHeal = Mathf.Min(maxHeal, healthRestore);
+            int actualHeal = Mathf.Min(MaxHealth - Health, healthRestore);
             Health += actualHeal;
-            CharacterEvents.characterHealed(gameObject, actualHeal);
+            CharacterEvents.characterHealed.Invoke(gameObject, actualHeal);
             return true;
         }
         return false;

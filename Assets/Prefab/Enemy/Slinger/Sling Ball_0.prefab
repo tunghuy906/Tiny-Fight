@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3311808735847286878}
   - component: {fileID: -7955653029412078901}
   - component: {fileID: 1441115828559328522}
+  - component: {fileID: -9071271622510492223}
   m_Layer: 0
   m_Name: Sling Ball_0
   m_TagString: Untagged
@@ -170,3 +171,18 @@ CircleCollider2D:
   m_Offset: {x: -0.006192525, y: 0}
   serializedVersion: 2
   m_Radius: 0.11909484
+--- !u!114 &-9071271622510492223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516575164684734135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1264e5674d4cef6459199b0548912a48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 3
+  damage: 10
+  knockbackForce: {x: 2, y: 2}
