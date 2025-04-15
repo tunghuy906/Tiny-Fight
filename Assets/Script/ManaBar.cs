@@ -10,7 +10,7 @@ public class ManaBar : MonoBehaviour
 
 	public int MaxMana = 400;
 	public int currentMana;
-	private float manaRegenRate = 1f;
+	private float manaRegenRate = 2f;
 	private int manaRegenAmount = 100; // Mỗi lần hồi phục 10 mana
 
 	private void Awake()
@@ -69,6 +69,12 @@ public class ManaBar : MonoBehaviour
 		manaRegenRate = originalRegenRate;
 
 		Debug.Log("Mana Regen Boost Expired.");
+	}
+	public void ResetMana()
+	{
+		currentMana = MaxMana;
+		manaSlider.value = currentMana;
+		UpdateManaText();
 	}
 
 }

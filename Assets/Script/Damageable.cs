@@ -119,4 +119,9 @@ public class Damageable : MonoBehaviour
         }
         return false;
     }
+	public void ResetHealth()
+	{
+		this.Health = this.MaxHealth;
+		healthChanged?.Invoke(this.Health, this.MaxHealth);
+	}
 }
