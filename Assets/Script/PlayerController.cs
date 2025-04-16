@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
@@ -250,9 +251,20 @@ public class PlayerController : MonoBehaviour
 	{
 		if (context.started && IsAlive && manaBar != null)
 		{
-			if (manaBar.currentMana >= manaCostPerShot) // Kiểm tra đủ mana không
+			// ❌ Nếu đang pause => không bắn
+			if (Ui_Main.isGamePaused) return;
+
+			// ❌ Nếu đang ấn vào bất kỳ UI nào => không bắn
+			if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
 			{
-				manaBar.UseMana(manaCostPerShot); // Trừ mana trước khi bắn
+				Debug.Log("Click vào UI nên không bắn");
+				return;
+			}
+
+			// ✅ Điều kiện đủ để bắn
+			if (manaBar.currentMana >= manaCostPerShot)
+			{
+				manaBar.UseMana(manaCostPerShot);
 				animator.SetTrigger(AnimationStrings.rangedAttackTrigger);
 			}
 			else
