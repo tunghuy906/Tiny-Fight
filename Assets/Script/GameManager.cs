@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 	public PlayerController player;
 	public static GameManager instance;
 	public Ui_User uiUser;
+	public bool IsMenuOpen { get; set; } // thêm dòng này
+
 
 	[Header("SkillPoint info")]
 	public int skillPoints;

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1358752294138806028}
   - component: {fileID: 250183603332628446}
   - component: {fileID: 5991943194609097291}
+  - component: {fileID: 5671861528524381619}
   m_Layer: 0
   m_Name: PF Village Props - Spike Ball
   m_TagString: Untagged
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358752294138806031}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1358752294138806028
 SpriteRenderer:
@@ -96,6 +97,25 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -103,7 +123,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.84375, y: 0.84375}
+    oldSize: {x: 1.6875, y: 1.6875}
     newSize: {x: 0.84375, y: 0.84375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -111,22 +131,23 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.26451, y: 0.25972727}
-      - {x: 0.11131202, y: 0.22836705}
-      - {x: 0.0019907579, y: 0.39028743}
-      - {x: -0.1026936, y: 0.23274185}
-      - {x: -0.2673521, y: 0.26941216}
-      - {x: -0.23789732, y: 0.106868215}
-      - {x: -0.39239037, y: -0.0050102025}
-      - {x: -0.22969991, y: -0.10460472}
-      - {x: -0.26373085, y: -0.26884943}
-      - {x: -0.10914695, y: -0.23570533}
-      - {x: 0.0023552254, y: -0.3864891}
-      - {x: 0.07708213, y: -0.237512}
-      - {x: 0.26718342, y: -0.26973635}
-      - {x: 0.2337036, y: -0.0979152}
-      - {x: 0.39192444, y: 0.0018265918}
-      - {x: 0.2317017, y: 0.10269809}
+    - - {x: 0.50044906, y: 0.5959413}
+      - {x: 0.16439734, y: 0.50559634}
+      - {x: -0.045197047, y: 0.82677555}
+      - {x: -0.2619534, y: 0.46868134}
+      - {x: -0.5858717, y: 0.53484404}
+      - {x: -0.5033278, y: 0.17175144}
+      - {x: -0.8052856, y: 0.0008882731}
+      - {x: -0.5187281, y: -0.16948843}
+      - {x: -0.588148, y: -0.5401798}
+      - {x: -0.22712028, y: -0.43625396}
+      - {x: -0.027140014, y: -0.75809354}
+      - {x: 0.13606879, y: -0.40856826}
+      - {x: 0.5090238, y: -0.5882545}
+      - {x: 0.37526703, y: -0.17459586}
+      - {x: 0.78122574, y: 0.0077250674}
+      - {x: 0.39685902, y: 0.23246455}
+  m_UseDelaunayMesh: 0
 --- !u!50 &5991943194609097291
 Rigidbody2D:
   serializedVersion: 4
@@ -144,7 +165,27 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5671861528524381619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358752294138806031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f59f352360e00f41a9784b26cc3e9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  knockbackForce: {x: 2, y: 5}
