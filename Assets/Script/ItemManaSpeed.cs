@@ -12,7 +12,7 @@ public class ItemBuff : MonoBehaviour
 		{
 			PlayerController playerController = other.GetComponent<PlayerController>();
 			ManaBar manaBar = FindObjectOfType<ManaBar>();
-
+			AudioManager.instance.PlaySfx(3);
 			if (playerController != null && manaBar != null)
 			{
 				playerController.ActivateSpeedBoost(buffDuration, speedBoostMultiplier);

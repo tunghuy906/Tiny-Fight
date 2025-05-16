@@ -2,17 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Ui_Main : MonoBehaviour
 {
 	private bool gamePaused;
+	private bool gameMuted;
 	public static bool isGamePaused = false;
 
 
 	[SerializeField] private GameObject mainMenu;
 
+	[Header("Volume sliders")]
+	[SerializeField] private UI_VolumeSlider[] slider;
+	[SerializeField] private Image muteIcon;
+	[SerializeField] private Image inGameMuteIcon;
+
 	private void Start()
 	{
+		for(int i = 0; i< slider.Length;  i++)
+		{
+			slider[i].SetupSlider();
+		}
+
 		SwitchMenuTo(mainMenu);
 		Time.timeScale = 1;
 	}
@@ -25,10 +37,25 @@ public class Ui_Main : MonoBehaviour
 		}
 
 		uiMenu.SetActive(true);
+
+		AudioManager.instance.PlaySfx(2);
 	}
-
-	public void StartGameButton() => GameManager.instance.UnlockPlayer();
-
+	public void MuteButton()
+	{
+		gameMuted = !gameMuted;
+		if(gamePaused)
+		{
+			AudioListener.volume = 0;
+		}
+		else
+		{
+			AudioListener.volume = 1;
+		}
+	}
+	public void StartGameButton()
+	{
+		GameManager.instance.UnlockPlayer();
+	}
 	public void PauseGameButton()
 	{
 		if (gamePaused)

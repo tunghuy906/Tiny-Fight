@@ -6,6 +6,7 @@ public class CollectibleItem : MonoBehaviour
 	{
 		if (collision.CompareTag("Player"))
 		{
+			AudioManager.instance.PlaySfx(3);
 			DontDestroy.Instance.CollectItem();
 			Destroy(gameObject);
 		}

@@ -8,5 +8,11 @@ public class ExitGame : MonoBehaviour
 	public void Menu()
 	{
 		SceneManager.LoadScene("Menu");
+
+		if (DontDestroy.Instance != null)
+		{
+			Destroy(DontDestroy.Instance.gameObject);
+			DontDestroy.Instance = null;
+		}
 	}
 }

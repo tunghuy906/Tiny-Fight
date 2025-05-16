@@ -258,9 +258,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14ba82c9009640790800000000000000
+      spriteID: dcd39ae8e5f844a4897e8f2ad4433dfc
       internalID: -7564806022734763199
       vertices: []
       indices: 

@@ -234,6 +234,7 @@ public class PlayerController : MonoBehaviour
 	{
 		if (context.performed && canDash)
 		{
+			AudioManager.instance.PlaySfx(0);
 			StartCoroutine(Dash());
 		}
 	}
@@ -241,6 +242,7 @@ public class PlayerController : MonoBehaviour
 	{
 		if (context.started && CanMove && (touchingDirections.IsGrounded || jumpCount < maxJumps))
 		{
+			AudioManager.instance.PlaySfx(1);
 			animator.SetTrigger(AnimationStrings.jumpTrigger);
 			rb.velocity = new Vector2(rb.velocity.x, jumpInpulse);
 			jumpCount++;
@@ -264,6 +266,7 @@ public class PlayerController : MonoBehaviour
 			// ✅ Điều kiện đủ để bắn
 			if (manaBar.currentMana >= manaCostPerShot)
 			{
+				AudioManager.instance.PlaySfx(4);
 				manaBar.UseMana(manaCostPerShot);
 				animator.SetTrigger(AnimationStrings.rangedAttackTrigger);
 			}

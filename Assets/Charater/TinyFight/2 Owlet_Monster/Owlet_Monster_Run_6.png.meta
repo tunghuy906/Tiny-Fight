@@ -144,10 +144,10 @@ TextureImporter:
       name: Owlet_Monster_Run_6_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 22
-        height: 27
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: Owlet_Monster_Run_6_1
       rect:
         serializedVersion: 2
-        x: 36
+        x: 32
         y: 0
-        width: 23
-        height: 27
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +186,10 @@ TextureImporter:
       name: Owlet_Monster_Run_6_2
       rect:
         serializedVersion: 2
-        x: 68
+        x: 64
         y: 0
-        width: 23
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: Owlet_Monster_Run_6_3
       rect:
         serializedVersion: 2
-        x: 101
+        x: 96
         y: 0
-        width: 22
-        height: 27
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: Owlet_Monster_Run_6_4
       rect:
         serializedVersion: 2
-        x: 132
+        x: 128
         y: 0
-        width: 23
-        height: 27
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: Owlet_Monster_Run_6_5
       rect:
         serializedVersion: 2
-        x: 164
+        x: 160
         y: 0
-        width: 23
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,7 +269,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 16cdbc9b143f98e4e8cc3e5c1f9b926b
     internalID: 0
     vertices: []
     indices: 

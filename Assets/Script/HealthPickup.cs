@@ -10,7 +10,6 @@ public class HealthPickup : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		Damageable damageable = collision.GetComponent<Damageable>();
-
 		if (damageable)
 		{
 			bool wasHealed =  damageable.Heal(healthRestore);
@@ -18,6 +17,7 @@ public class HealthPickup : MonoBehaviour
 			if (wasHealed)
 			{
 				Destroy(gameObject);
+				AudioManager.instance.PlaySfx(3);
 			}
 		}
 	}

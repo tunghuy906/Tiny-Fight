@@ -11,6 +11,7 @@ public class SkillPoint : MonoBehaviour
 		{
 			if (collision.CompareTag("Player")) 
 			{
+				AudioManager.instance.PlaySfx(3);
 				GameManager.instance.AddSkillPoint(skillPointValue);
 				Destroy(gameObject); 
 			}

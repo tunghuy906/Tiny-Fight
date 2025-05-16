@@ -55,6 +55,7 @@ public class DontDestroy : MonoBehaviour
 
 	public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
 	{
+
 		if (winPanel != null && winPanel.activeSelf)
 		{
 			winPanel.SetActive(false);

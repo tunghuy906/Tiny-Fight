@@ -17,6 +17,7 @@ public class Chest : MonoBehaviour
 	{
 		if (collision.CompareTag("Player") && !isOpened)
 		{
+			AudioManager.instance.PlaySfx(6);
 			OpenChest();
 		}
 	}
