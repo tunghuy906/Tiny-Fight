@@ -112,7 +112,7 @@ public class DontDestroy : MonoBehaviour
 			player = GameObject.FindGameObjectWithTag("Player");
 			if (player == null)
 			{
-				Debug.LogWarning("Không tìm thấy Player để reset máu/mana.");
+				//Debug.LogWarning("Không tìm thấy Player để reset máu/mana.");
 				return;
 			}
 		}

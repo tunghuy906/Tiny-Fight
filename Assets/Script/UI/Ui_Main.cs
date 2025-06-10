@@ -27,6 +27,7 @@ public class Ui_Main : MonoBehaviour
 
 		SwitchMenuTo(mainMenu);
 		Time.timeScale = 1;
+
 	}
 
 	public void SwitchMenuTo(GameObject uiMenu)
@@ -72,7 +73,16 @@ public class Ui_Main : MonoBehaviour
 		}
 	}
 
-	public void RestartGameButton() => GameManager.instance.RestartLevel();
+	public void RestartGameButton()
+	{
+		// Đảm bảo game không bị pause
+		Time.timeScale = 1f;
+		
+		// Lấy tên scene hiện tại và load lại
+		string currentScene = SceneManager.GetActiveScene().name;
+		SceneManager.LoadScene(currentScene);
+	}
+
 
 	public void ChangeScene(string sceneName)
 	{

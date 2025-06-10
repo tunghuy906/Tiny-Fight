@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: -6653925020730689055}
   - component: {fileID: -7861350826803922981}
   - component: {fileID: -7086527564179307091}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: SkyGold
-  m_TagString: Untagged
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
