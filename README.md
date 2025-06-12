@@ -68,7 +68,7 @@ Tiny Fight 2D là một game platformer 2D thú vị được phát triển bằ
 ### 🔧 Hướng dẫn setup
 1. **Clone repository**:
    ```bash
-   git clone [your-repository-url]
+   git clone https://github.com/tunghuy906/Tiny-Fight
    cd Tiny-Fight
    ```
 
